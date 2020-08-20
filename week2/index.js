@@ -14,6 +14,7 @@ var age = "32"
 }
 var numbers =[ 1,2,3,4]
 numbers[3]
+ console.log(true)
 
 
 
