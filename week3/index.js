@@ -19,5 +19,5 @@ var next3 = phoneNumber.slice(3,6)
 var last4 = phoneNuber.slice(6)
 console.log (last4)
 
-var phoneNumberWithDashes = first3 + "-"+ next 3 + next3 + "-" + last4
+var phoneNumberWithDashes = first3 + "-"+ next + 3 + next3 + "-" + last4
 console.log (phoneNumberWithDashes)

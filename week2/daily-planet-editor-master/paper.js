@@ -27,11 +27,11 @@ for (var i=0;i<enemies.length;i++)
 {
     var is_there_kryptonite:
     if (i%2=== 0) {
-        is_there_kryptonite = true;
+        (istherekryptonite) = true;
     } else {
-        is_there_kryptonite = false;
+        (istherekryptonite) = false;
     }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
+    console.log(WhoWins(is_there_kryptonite,enemies[i]));
 }
 
 function HowAttractedIsLoisLaneToMe ()
@@ -43,7 +43,7 @@ function HowAttractedIsLoisLaneToMe ()
 consol.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
-var superman false;
+var superman =false;
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");

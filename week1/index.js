@@ -13,4 +13,12 @@ var groceryList = {
         ],
     }
     console.log(groceryList.groceryList[2])
+    console.log(groceryList.groceryList[2])
+    
+
+    
+
+
+
+    
 
