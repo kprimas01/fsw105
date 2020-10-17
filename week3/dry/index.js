@@ -1,17 +1,40 @@
-function test(a){
-    console.log(a)
+var peopleWhoWanToSeeMadMaxFuryRoad = [
+    {
+        name: "mike",
+        age:12,
+        gender:"male",
+    },{
+    name: "Madeline",
+    age:80,
+    gender:"female",
+    },{
+        mane:"cheryl",
+        age:22,
+        gender:"female"
+    },{
+        name:"Sam",
+        age:"30",
+        gender:"male",
+    },{
+        name:"Suzy",
+        age: 4,
+        gender:"female"
 
-}
-var cat="meaw"
-var array=["terry","joe","keri"]
-console.log(cat)
-test("bob")
-test("woof")
-test(cat)
-test(array[1])
 
-function test2(a,p){
-    console.log(a+p)
+
+
+    }
+]
+
+function movie(){
+    for(var i = 0; i <peopleWhoWanToSeeMadMaxFuryRoad.length; i++){
+    if (peopleWhoWanToSeeMadMaxFuryRoad[i].age>=18){
+console.log("oldenough")
+
+    }
+    else{
+        console.log("notoldenough")
+    }
 }
-test2(4,2)
-test2("shirt",2)
+}
+movie()
